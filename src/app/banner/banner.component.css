@@ -1,0 +1,38 @@
+nav {
+  display: grid;
+  align-content: center;
+  grid-template-columns: min-content 10rem 10rem auto 10rem 10rem;
+  grid-gap: 1rem;
+  border-bottom: 1px solid #ccc;
+  box-shadow: 0 3px 1rem #ccc;
+  padding: 1rem;
+}
+
+nav > * {
+  text-align: center;
+  display: block;
+  text-transform: uppercase;
+}
+
+p {
+  align-self: center;
+}
+
+nav > .nav-button {
+  text-decoration: none;
+  border: 1px solid #222;
+  border-radius: 0.26rem;
+  width: 10rem;
+  color: #222;
+  align-self: center;
+  padding: 1rem 0;
+}
+
+nav > .nav-button:hover {
+  background-color: #222;
+  color: white;
+}
+
+img {
+  height: 3rem;
+}

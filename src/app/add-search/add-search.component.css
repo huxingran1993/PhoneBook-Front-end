@@ -1,0 +1,11 @@
+.add_button{
+  position: absolute;
+  margin-left: 60px;
+  margin-top: 12px;
+  height: 80px;
+  width: 80px;
+}
+
+.material-icons{
+  border: aliceblue;
+}
